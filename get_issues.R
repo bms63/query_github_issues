@@ -16,9 +16,6 @@ Raw4 <- fromJSON("https://api.github.com/repos/pharmaverse/admiral/issues?page=4
 Raw5 <- fromJSON("https://api.github.com/repos/pharmaverse/admiral/issues?page=5")
 Raw6 <- fromJSON("https://api.github.com/repos/pharmaverse/admiral/issues?page=6")
 
-git config --global user.email "ben.x.straub@gsk.com"
-git config --global user.name "bms63"
-
 # Quick Look at the Raw contents of one JSON file
 Raw1[[14]]$user$login
 Raw1[[14]]$node_id
